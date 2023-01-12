@@ -8,6 +8,7 @@ Slytherin=0
 """Lets see what howgarts house you belong to"""
 
 
+
 print("""Welcome, welcome, one and all! The show is  about to start. I am the Hogwarts Sorting Hat and it is time to play my part. You may call me worn and ragged if that is all you truly see…But listen close and I will tell where you are supposed to be! Go ahead and try me on! There is  nothing left to fear. I will find right where you belong by looking between your ears."
 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡀⠠⠤⠀⠐⠒⠂⢀⢈⣉⡉⠉⣉⠉⠉⣉⡉⠉⠀⠐⠒⠂⠀⠤⠄⢀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -42,13 +43,6 @@ print("""Welcome, welcome, one and all! The show is  about to start. I am the Ho
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⠤⠤⠎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀""")
 
 
-#print('“Welcome, welcome, one and all! The show is  about to start. I am the Hogwarts Sorting Hat and it is time to play my part. You may call me worn and ragged if that is all you truly see…But listen close and I will tell where you are supposed to be! Go ahead and try me on! There is  nothing left to fear. I will find right where you belong by looking between your ears."')
-
-
-
-
-
-
 question1= {"question": "Choose one of the four classical elements",
             "answer": ["water",
                        "air",
@@ -72,6 +66,7 @@ while True:
     else:
          print("cmon man choose one of the options (eyeroll)")
 
+
 if answer in answer_list:
         if answer == answer_list[0]:
             Ravenclaw += 1
@@ -82,11 +77,6 @@ if answer in answer_list:
         elif  answer == answer_list[3]:
             Slytherin += 1
 
-    ### CHAD CHANGES
-    # hi Maria! this script is AWESOME! to answer your email, here's how you could
-    # increment your house scores depending on the answer chosen.
-    # I'm pretty sure the first answer is always Ravenclaw, last answer Slytherin,
-    # so this code should work for all your questions!
 
 question2= {"question": "Choose your favorite color out of the ones listed below:",
             "answer": ["blue",
